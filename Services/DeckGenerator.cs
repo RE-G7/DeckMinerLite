@@ -94,7 +94,7 @@ namespace DeckMiner.Services
 
             int n = allCharacters.Count;
             // doubleCount = 0..3
-            for (int doubleCount = 0; doubleCount <= 3; doubleCount++)
+            for (int doubleCount = 0; doubleCount <= 0; doubleCount++)
             {
                 // 选择 doubleCount 个角色作为双卡角色
                 foreach (var doubles in CombinationsIndexBased(allCharacters, doubleCount))
