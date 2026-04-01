@@ -23,7 +23,7 @@ jobs:
     - name: Fetch Game Data
       shell: pwsh
       run: |
-        curl -L -o assets.zip "https://github.com/${{ github.repository }}/releases/download/GameData/GameData.zip"
+        curl -L -o assets.zip "https://github.com/BlueNoBaka/releases/download/GameData/GameData.zip"
         tar -xf assets.zip
     
     - name: Publish NativeAOT
