@@ -45,7 +45,7 @@ namespace DeckMiner.Services
         /// </summary>
         public static List<SimulationResult> ScoreToPt(List<SimulationResult> results)
         {
-            double sflBonus = 6.6;
+            double sflBonus = 1;
             var cardCache = ConfigLoader.Config.CardCache;
             var limitBreakLookup = new Dictionary<int, int>();
 
