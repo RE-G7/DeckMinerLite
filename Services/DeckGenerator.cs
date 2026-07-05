@@ -251,7 +251,7 @@ namespace DeckMiner.Services
 
             // DR <= 1
             tagCount.TryGetValue(Rarity.DR, out int drCount);
-            return drCount <= 1;
+            return drCount <= 6;
         }
 
         // ================== 分发角色 → 枚举卡组 ==================
