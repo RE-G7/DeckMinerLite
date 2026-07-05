@@ -15,9 +15,9 @@ namespace DeckMiner.Data
         LR = 7,
         DR = 8,
         BR = 9,  
-        mR = 93, 
-        mSR = 94, 
-        mUR = 95
+        mR = 3, 
+        mSR = 4, 
+        mUR = 5
     }
 
     /// <summary>
